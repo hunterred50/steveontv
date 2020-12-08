@@ -1,0 +1,18 @@
+div.banner {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    animation-name: banner;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+div.banner:hover {
+    animation-play-state: paused;
+}
+  
+@keyframes banner {
+    0%   {right:0px;}
+    100% {right:200em;}
+}
