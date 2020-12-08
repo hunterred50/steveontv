@@ -15,4 +15,14 @@ div.show {
     color: #05152a;
     cursor: pointer;
     text-align: left;
+    font-size: 12px;
+}
+
+button.city {
+    animation: city 1s cubic-bezier(0.075, 0.82, 0.165, 1) 0 0 forwards 0;
+}
+
+@keyframes city {
+    0%   {right:0px;}
+    100% {right:200em;}
 }

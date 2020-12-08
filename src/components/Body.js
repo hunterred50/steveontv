@@ -366,30 +366,39 @@ export default class Body extends Component {
                         <div className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/kbne1p4jv5?videoFoam=true", "Do you think that you can't lose weight?", "Better Mornings • WGCL CBS • Atlanta")}>Better Mornings</div>
                         <div className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/c7srqs7977?videoFoam=true", "TOUGH LOVE APPROACH TO WEIGHT LOSS", "Better Mornings - Fat Loser • ATL CBS • Atlanta")}>Better Mornings - Fat Loser</div>
                         <div className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/rag3ibsojz?videoFoam=true", "Fighting Childhood Obesity.", "CBS Atlanta • CBS Fit Family • Atlanta")}>CBS Atlanta</div>
+                        <div className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/7nej94telg?videoFoam=true", "Hospital refuses to hire obese employees!", "CNN Headline News • CNN HLN • Atlanta")}>CNN Headline News</div>
+                        <div className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/x1st80jlns?videoFoam=true", "Do you think like a fat person?", "Good Day Atlanta • Fox WAGA • Atlanta")}>Good Day Atlanta</div>
+                        <div className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/l17jlvsws3?videoFoam=true", "Is McDonald's to blame for your FAT?", "Good Day Atlanta - McDonalds • FOX WAGA • Atlanta")}>Good Day Atlanta McDonalds</div>
+                        <div className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/b4a8ls7sid?videoFoam=true", "Impact on Future Olympic Athletes", "HLN Morning Express • CNN Snappytv.com • Atlanta")}>HLN Morning Express</div>
+                        <div className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/914a5zgfft?videoFoam=true", "Weight loss goals", "Public Affairs On Peach • CBS 46 News • Atlanta")}>Public Affairs on Peach</div>
+                        <div className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/xig8wjwxv5?videoFoam=true", "Discussing Obesity Epidemic", "Public Affairs on Peachtree TV • CBS 46 News • ATLANTA")}>Public Affairs on Peachtree TV</div>
+                        <div className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/k9zcvf4d51?videoFoam=true", "Swimmers' Scandal", "WGCL • CBS 46 • Atlanta")}>WGCL</div>
                     </div>}
                     <button onClick={this.toggle.bind(this, "beijing")}>
                         Beijing
                     </button>
                     {this.state.displayBei && <div>
-                        <div className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/c7srqs7977?videoFoam=true", "TOUGH LOVE APPROACH TO WEIGHT LOSS", "Better Mornings - Fat Loser • ATL CBS • Atlanta")}>Better Mornings - Fat Loser</div>
+                        <div className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/18kolhfab4?videoFoam=true", "Sex and Politics", "CCTV • America • Beijing")}>CCTV</div>
                     </div>}
                     <button onClick={this.toggle.bind(this, "boston")}>
                         Boston
                     </button>
                     {this.state.displayBos && <div>
-                        <div className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/c7srqs7977?videoFoam=true", "TOUGH LOVE APPROACH TO WEIGHT LOSS", "Better Mornings - Fat Loser • ATL CBS • Atlanta")}>Better Mornings - Fat Loser</div>
+                        <div className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/bhhe49zfhv?videoFoam=true", "Are you where you want to be in your career?", "NECN Business • NECN • Boston")}>NECN Business</div>
                     </div>}
                     <button onClick={this.toggle.bind(this, "champaign")}>
                         Champaign
                     </button>
                     {this.state.displayCha && <div>
-                        <div className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/c7srqs7977?videoFoam=true", "TOUGH LOVE APPROACH TO WEIGHT LOSS", "Better Mornings - Fat Loser • ATL CBS • Atlanta")}>Better Mornings - Fat Loser</div>
+                        <div className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/jfhmqee7vz?videoFoam=true", "Secrets Self-Made Millionaires Teach Their Kids", "The Morning Show - The Secrets Book • CBS WCIA 3 • Champaign")}>The Morning Show - The Secrets Book</div>
                     </div>}
                     <button onClick={this.toggle.bind(this, "charlotte")}>
                         Charlotte
                     </button>
                     {this.state.displayChr && <div>
-                        <div className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/c7srqs7977?videoFoam=true", "TOUGH LOVE APPROACH TO WEIGHT LOSS", "Better Mornings - Fat Loser • ATL CBS • Atlanta")}>Better Mornings - Fat Loser</div>
+                        <div className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/mv2p6b8wex?videoFoam=true", "How do we begin to change our thinking?", "Charlotte Today How Rich People Think • NBC WCNC • Charlotte")}>Charlotte Today - How Rich People Think</div>
+                        <div className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/7j62qf4yzl?videoFoam=true", "Sex, Politics, Religion", "Charlotte Today - Sex Politics Religion • WCNC News Chanel 36 • Charlotte")}>Charlotte Today - Sex, Politics, Religion</div>
+                        <div className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/afyxaqt7tb?videoFoam=true", "What is the key to financial Success?", "Fox News Rising • FOX WCCB • Charlotte")}>Fox News Rising</div>
                     </div>}
                     <button onClick={this.toggle.bind(this, "chicago")}>
                         Chicago
