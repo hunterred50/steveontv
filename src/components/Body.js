@@ -699,61 +699,72 @@ export default class Body extends Component {
                         San Diego
                     </button>
                     {this.state.displaySan && <div>
-                        <div className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/c7srqs7977?videoFoam=true", "TOUGH LOVE APPROACH TO WEIGHT LOSS", "Better Mornings - Fat Loser • ATL CBS • Atlanta")}>Better Mornings - Fat Loser</div>
+                        <div className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/84abm7qqpk?videoFoam=true", "Are you on a quest to be a millionaire?", "Fox 5 Morning News (1) • FOX KSWB • San Diego")}>Fox 5 Morning News (1)</div>
+                        <div className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/itsq9s9jva?videoFoam=true", "Holiday Spending Diet", "Fox 5 Morning News (2) • FOX KSWB • San Diego")}>Fox 5 Morning News (2)</div>
+                        <div className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/9yxcglkwtv?videoFoam=true", "Does getting rich sound like a good idea?", "San Diego 6 In The Morning • CW XETV • San Diego")}>San Diego 6 In The Morning</div>
+                        <div className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/213xrtsqvs?videoFoam=true", "Though Love For Dieters", "San Diego Living • 6 CW • San Diego")}>San Diego Living</div>
                     </div>}
                     <button onClick={this.toggle.bind(this, "seattle")}>
                         Seattle
                     </button>
                     {this.state.displaySea && <div>
-                        <div className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/c7srqs7977?videoFoam=true", "TOUGH LOVE APPROACH TO WEIGHT LOSS", "Better Mornings - Fat Loser • ATL CBS • Atlanta")}>Better Mornings - Fat Loser</div>
+                        <div className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/8g9i9n693y?videoFoam=true", "Is your focus on financial survival or getting rich?", "KOMO 4 • Money Works News • Seattle")}>KOMO 4</div>
+                        <div className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/uwg9sgw065?videoFoam=true", "Steve Siebold dissects the human psyche", "New Day Northwest • NBC King5 • Seattle")}>KOMO 4</div>
                     </div>}
                     <button onClick={this.toggle.bind(this, "st. paul")}>
                         St. Paul
                     </button>
                     {this.state.displayStP && <div>
-                        <div className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/c7srqs7977?videoFoam=true", "TOUGH LOVE APPROACH TO WEIGHT LOSS", "Better Mornings - Fat Loser • ATL CBS • Atlanta")}>Better Mornings - Fat Loser</div>
+                        <div className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/pcersvp5ax?videoFoam=true", "Do you know how to think skinny?", "Fox 9 Morning • FOX KMSP • St. Paul")}>Fox 9 Morning</div>
                     </div>}
                     <button onClick={this.toggle.bind(this, "sydney")}>
                         Sydney
                     </button>
                     {this.state.displaySyd && <div>
-                        <div className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/c7srqs7977?videoFoam=true", "TOUGH LOVE APPROACH TO WEIGHT LOSS", "Better Mornings - Fat Loser • ATL CBS • Atlanta")}>Better Mornings - Fat Loser</div>
+                        <div className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/iesno571qy?videoFoam=true", "Is mental toughness innate or is it something that we can learn?", "Today • Nine Network • Sydney")}>Today</div>
                     </div>}
                     <button onClick={this.toggle.bind(this, "tampa")}>
                         Tampa
                     </button>
                     {this.state.displayTam && <div>
-                        <div className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/c7srqs7977?videoFoam=true", "TOUGH LOVE APPROACH TO WEIGHT LOSS", "Better Mornings - Fat Loser • ATL CBS • Atlanta")}>Better Mornings - Fat Loser</div>
+                        <div className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/1a1jbb1cjq?videoFoam=true", "Could mental toughness give you that extra push to get fit?", "Bay News 9 • Cable • Tampa")}>Bay News 9</div>
+                        <div className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/mfuvdwj9j2?videoFoam=true", "Could taking responsibility for getting fat turn things around?", "Daytime (1) • WFLA • Tampa")}>Daytime (1)</div>
+                        <div className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/jgq2vdvdsi?videoFoam=true", "Is your thinking getting in the way?", "Daytime (2) • WFLA • Tampa")}>Daytime (2)</div>
+                        <div className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/qvuhuzf5qn?videoFoam=true", "How Do Rich People Think?", "Good Day Tampa Bay • FOX WTVT • Tampa")}>Good Day Tampa Bay</div>
+                        <div className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/jzmxofngjt?videoFoam=true", "Thinking is the catalyst for behavior, and behavior is what makes you rich.", "The Daily Buzz • CW 44 • Tampa")}>The Daily Buzz</div>
                     </div>}
                     <button onClick={this.toggle.bind(this, "toronto")}>
                         Toronto
                     </button>
                     {this.state.displayTor && <div>
-                        <div className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/c7srqs7977?videoFoam=true", "TOUGH LOVE APPROACH TO WEIGHT LOSS", "Better Mornings - Fat Loser • ATL CBS • Atlanta")}>Better Mornings - Fat Loser</div>
+                        <div className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/daaeiqwbbu?videoFoam=true", "101 Differences Between Fit/Fat People", "Breakfast Television • City TV • Toronto")}>Breakfast Television</div>
+                        <div className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/b05c130uyf?videoFoam=true", "Is McDonald's to blame for heart disease or the obesity epidemic?", "Connect With Mark Kelley • CBC • Toronto")}>Connect With Mark Kelley</div>
+                        <div className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/rnx9trd8k0?videoFoam=true", "Author Steve Siebold delivers his message about obesity.", "The Marilyn Denis Show • CTV CTV Two • Toronto")}>The Marilyn Denis Show</div>
                     </div>}
                     <button onClick={this.toggle.bind(this, "warsaw")}>
                         Warsaw
                     </button>
                     {this.state.displayWar && <div>
-                        <div className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/c7srqs7977?videoFoam=true", "TOUGH LOVE APPROACH TO WEIGHT LOSS", "Better Mornings - Fat Loser • ATL CBS • Atlanta")}>Better Mornings - Fat Loser</div>
+                        <div className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/ohx19vc4jx?videoFoam=true", "Steve Siebold on Dzień Dobry TVN", "Good Morning Poland • Dzień Dobry TVN • Warsaw")}>Good Morning Poland</div>
                     </div>}
                     <button onClick={this.toggle.bind(this, "washington")}>
                         Washington
                     </button>
                     {this.state.displayWas && <div>
-                        <div className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/c7srqs7977?videoFoam=true", "TOUGH LOVE APPROACH TO WEIGHT LOSS", "Better Mornings - Fat Loser • ATL CBS • Atlanta")}>Better Mornings - Fat Loser</div>
+                        <div className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/rp7kdaei14?videoFoam=true", "If you are fat, it's your fault!", "Fox 5 Morning News • FOX WTTG • Washington")}>Fox 5 Morning News</div>
+                        <div className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/bgskbuzbf1?videoFoam=true", "Is the obesity epidemic in the US out of control?", "Let's Talk Live • News Channel 8 • Washington")}>Let's Talk Live</div>
                     </div>}
                     <button onClick={this.toggle.bind(this, "west palm beach")}>
                         West Palm Beach
                     </button>
                     {this.state.displayWes && <div>
-                        <div className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/c7srqs7977?videoFoam=true", "TOUGH LOVE APPROACH TO WEIGHT LOSS", "Better Mornings - Fat Loser • ATL CBS • Atlanta")}>Better Mornings - Fat Loser</div>
+                        <div className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/y9ik2not39?videoFoam=true", "Can you get mentally fit?", "Good Morning South Florida • CBS WPEC • West Palm Beach")}>Good Morning South Florida</div>
                     </div>}
                     <button onClick={this.toggle.bind(this, "winston-salem")}>
                         Winston-Salem
                     </button>
                     {this.state.displayWin && <div>
-                        <div className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/c7srqs7977?videoFoam=true", "TOUGH LOVE APPROACH TO WEIGHT LOSS", "Better Mornings - Fat Loser • ATL CBS • Atlanta")}>Better Mornings - Fat Loser</div>
+                        <div className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/5r3ou6nw3i?videoFoam=true", "How do the rick keep getting richer?", "Fox 8 News In The Morning • FOX WGHP • Winston-Salem")}>Fox 8 News In The Morning</div>
                     </div>}
                 </div>
                 <div id="video" style={{width: "50%", height: "90%", display: "flex", flexDirection: "column", color: "white", fontFamily: "arial", fontSize: "16px", fontWeight: "bold"}}>
