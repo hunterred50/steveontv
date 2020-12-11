@@ -3,10 +3,13 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import {BreakpointProvider} from 'react-socks';
 
 ReactDOM.render(
   <React.StrictMode>
+    <BreakpointProvider>
     <App />
+    </BreakpointProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );
