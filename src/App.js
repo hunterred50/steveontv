@@ -12,16 +12,16 @@ function App() {
       <Breakpoint medium up>
         <div style={{margin: "0% 10%", backgroundColor: "#f7f7f7"}}>
           <Header />
-          <ScrollingBanner />
-          <Body />
+          <ScrollingBanner bClass={"banner"} />
+          <Body networks={true} vidWidth={"50%"} vidMargin={"0px"} />
           <Footer />
         </div>
       </Breakpoint>
       <Breakpoint small down>
         <div style={{margin: "0% 0", backgroundColor: "#f7f7f7"}}>
           <Header />
-          <ScrollingBanner />
-          <Body />
+          <ScrollingBanner bClass={"mobileBanner"} />
+          <Body networks={false} vidWidth={"80%"} vidMargin={"10px"} />
           <Footer />
         </div>
       </Breakpoint>

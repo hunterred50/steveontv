@@ -1,18 +1,18 @@
 button {
     width: 100%;
-    border: 0px #05152a;
-    background-color: #05152a;
+    background-color: #03305f;
     color: white;
     font-family: Verdana, Arial, Helvetica, sans-serif;
     font-weight: bold;
     padding: 2px;
     cursor: pointer;
+    border: 1px solid #fff;
 }
 
 div.show {
     padding: 2px;
     text-decoration: underline;
-    color: #05152a;
+    color: #fff;
     cursor: pointer;
     text-align: left;
     font-size: 12px;

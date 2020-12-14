@@ -3,9 +3,21 @@ div.banner {
     height: 100px;
     position: relative;
     animation-name: banner;
-    animation-duration: 20s;
+    animation-duration: 18s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
+    white-space: nowrap;
+}
+
+div.mobileBanner {
+    width: 100px;
+    height: 20%;
+    position: relative;
+    animation-name: banner;
+    animation-duration: 27s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    white-space: nowrap;
 }
 
 div.banner:hover {
@@ -14,5 +26,5 @@ div.banner:hover {
   
 @keyframes banner {
     0%   {right:0px;}
-    100% {right:200em;}
+    100% {right:264.2em;}
 }

@@ -4,9 +4,8 @@ import './banner.css'
 export default class ScrollingBanner extends Component {
     render() {
         return (
-            <div style={{width: "10%"}}>
-                <div style={{width: "10px", height: "10px", zIndex: "1", position: "absolute"}}></div>
-                <div className="banner" style={{whiteSpace: "nowrap"}}>
+            <div style={{width: "100%", height: "115px", backgroundColor: "#03305f", overflowX: "hidden"}}>
+                <div className={this.props.bClass}>
                     <img alt="scrolling img 1" src="https://www.steveontv.com/images/SOT-1.jpg" />
                     <img alt="scrolling img 2" src="https://www.steveontv.com/images/SOT-2.jpg" />
                     <img alt="scrolling img 3" src="https://www.steveontv.com/images/SOT-3.jpg" />
@@ -26,6 +25,11 @@ export default class ScrollingBanner extends Component {
                     <img alt="scrolling img 17" src="https://www.steveontv.com/images/SOT-17.jpg" />
                     <img alt="scrolling img 18" src="https://www.steveontv.com/images/SOT-18.jpg" />
                     <img alt="scrolling img 19" src="https://www.steveontv.com/images/SOT-19.jpg" />
+                    <img alt="scrolling img 1" src="https://www.steveontv.com/images/SOT-1.jpg" />
+                    <img alt="scrolling img 2" src="https://www.steveontv.com/images/SOT-2.jpg" />
+                    <img alt="scrolling img 3" src="https://www.steveontv.com/images/SOT-3.jpg" />
+                    <img alt="scrolling img 4" src="https://www.steveontv.com/images/SOT-4.jpg" />
+                    <img alt="scrolling img 5" src="https://www.steveontv.com/images/SOT-5.jpg" />
                 </div>
             </div>
         )
