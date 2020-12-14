@@ -10,7 +10,8 @@ button {
 }
 
 div.show {
-    padding: 2px;
+    padding: 3px;
+    padding-left: 5px;
     text-decoration: underline;
     color: #fff;
     cursor: pointer;

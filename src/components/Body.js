@@ -938,7 +938,7 @@ export default class Body extends Component {
                     </div>
                 </div>
                 {this.props.networks && <div id="newsPanel" style={{width: "20%", height: "90%", backgroundColor: "#01305f"}}>
-                    <img style={{width: "100%"}} alt="major networks" src="https://kajabi-storefronts-production.global.ssl.fastly.net/kajabi-storefronts-production/themes/3210473/settings_images/7aZBv83QKGnNAICt3juw_major_networks.png" />
+                    <img style={{width: "100%"}} alt="major networks" src="https://kajabi-storefronts-production.global.ssl.fastly.net/kajabi-storefronts-production/themes/3210473/settings_images/YXNWnSSRoOPA33kgKcGf_major_networks0.png" />
                 </div>}
             </div>
         )

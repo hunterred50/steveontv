@@ -8,7 +8,6 @@ import { Breakpoint } from 'react-socks';
 function App() {
   return (
     <div className="App">
-      {/* <div style={{height: "100%", width: "10%", backgroundColor: "#f7f7f7"}}></div> */}
       <Breakpoint medium up>
         <div style={{margin: "0% 10%", backgroundColor: "#f7f7f7"}}>
           <Header />
