@@ -929,7 +929,7 @@ export default class Body extends Component {
                         <div className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/5r3ou6nw3i?videoFoam=true", "How do the rich keep getting richer?", "Fox 8 News In The Morning • FOX WGHP • Winston-Salem")}>Fox 8 News In The Morning</div>
                     </div>}
                 </div>
-                <div id="video" style={{width: this.props.vidWidth, height: "90%", display: "flex", flexDirection: "column", color: "white", fontFamily: "arial", fontSize: "16px", fontWeight: "bold", marginLeft: this.props.vidMargin}}>
+                <div id="video" style={{width: this.props.vidWidth, height: "300px", display: "flex", flexDirection: "column", color: "white", fontFamily: "arial", fontSize: "16px", fontWeight: "bold", marginLeft: this.props.vidMargin, paddingBottom: "40px"}}>
                     <div className="wistia_responsive_padding" style={{padding: "56.25% 0 0 0", position: "relative"}}><div className="wistia_responsive_wrapper" style={{height: "100%", left: "0", position: "absolute", top: "0", width: "100%"}}>
                     <iframe src={this.state.vid} title="20130109-tdy_klg_hrpt_ NY Video" allow="autoplay; fullscreen" allowtransparency="true" frameBorder="0" scrolling="no" className="wistia_embed" name="wistia_embed" allowFullScreen width="100%" height="100%"></iframe></div></div>
                     <script src="https://fast.wistia.net/assets/external/E-v1.js" async></script><br/>
@@ -937,7 +937,7 @@ export default class Body extends Component {
                         <div style={{fontSize: "11px", fontWeight: "normal"}}>{this.state.subtitle}</div>
                     </div>
                 </div>
-                {this.props.networks && <div id="newsPanel" style={{width: "20%", height: "90%", backgroundColor: "#01305f"}}>
+                {this.props.networks && <div id="newsPanel" style={{width: this.props.newsWidth, height: "90%", backgroundColor: "#01305f"}}>
                     <img style={{width: "100%"}} alt="major networks" src="https://kajabi-storefronts-production.global.ssl.fastly.net/kajabi-storefronts-production/themes/3210473/settings_images/YXNWnSSRoOPA33kgKcGf_major_networks0.png" />
                 </div>}
             </div>
