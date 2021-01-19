@@ -16,7 +16,7 @@ function App() {
           <Footer />
         </div>
       </Breakpoint>
-      <Breakpoint customQuery="(min-width: 1400px) and (max-width: 2400px">
+      <Breakpoint customQuery="(min-width: 1400px) and (max-width: 2400px)">
         <div style={{margin: "0% 10%", backgroundColor: "#f7f7f7"}}>
           <Header />
           <ScrollingBanner bClass={"banner"} />
@@ -24,7 +24,7 @@ function App() {
           <Footer />
         </div>
       </Breakpoint>
-      <Breakpoint customQuery="(min-width: 700px) and (max-width: 1400px">
+      <Breakpoint customQuery="(min-width: 700px) and (max-width: 1400px)">
         <div style={{margin: "0% 10%", backgroundColor: "#f7f7f7"}}>
           <Header />
           <ScrollingBanner bClass={"banner"} />
@@ -32,7 +32,7 @@ function App() {
           <Footer />
         </div>
       </Breakpoint>
-      <Breakpoint customQuery="(max-width: 700px">
+      <Breakpoint customQuery="(max-width: 700px)">
         <div style={{margin: "0% 0", backgroundColor: "#f7f7f7"}}>
           <Header />
           <ScrollingBanner bClass={"mobileBanner"} />
