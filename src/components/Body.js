@@ -9,6 +9,7 @@ export default class Body extends Component {
             displayAug: false,
             displayBei: false,
             displayBos: false,
+            displayCal: false,
             displayCha: false,
             displayChr: false,
             displayChi: false,
@@ -33,6 +34,7 @@ export default class Body extends Component {
             displayJac: false,
             displayKan: false,
             displayKno: false,
+            displayLan: false,
             displayLas: false,
             displayLon: false,
             displayLos: false,
@@ -100,6 +102,11 @@ export default class Body extends Component {
         if(city === "boston") {
             this.setState(state => ({
                 displayBos: !state.displayBos
+            }));
+        }
+        if(city === "calgary") {
+            this.setState(state => ({
+                displayCal: !state.displayCal
             }));
         }
         if(city === "champaign") {
@@ -220,6 +227,11 @@ export default class Body extends Component {
         if(city === "knoxville") {
             this.setState(state => ({
                 displayKno: !state.displayKno
+            }));
+        }
+        if(city === "lansing") {
+            this.setState(state => ({
+                displayLan: !state.displayLan
             }));
         }
         if(city === "las vegas") {
@@ -464,6 +476,12 @@ export default class Body extends Component {
                     {this.state.displayBos && <div>
                         <div className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/bhhe49zfhv?videoFoam=true", "Are you where you want to be in your career?", "NECN Business • NECN • Boston")}>NECN Business</div>
                     </div>}
+                    <button onClick={this.toggle.bind(this, "calgary")}>
+                        Calgary
+                    </button>
+                    {this.state.displayCal && <div>
+                        <div style={{color: "#00FF00"}} className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/pzezbzsbvc?videoFoam=true", "Help your kids better understand money during the holiday season", "CTV News Calgary • CTV Canada • Calgary")}>CTV News Calgary</div>
+                    </div>}
                     <button onClick={this.toggle.bind(this, "champaign")}>
                         Champaign
                     </button>
@@ -626,6 +644,12 @@ export default class Body extends Component {
                     {this.state.displayKno && <div>
                         <div style={{color: "#00FF00"}} className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/kes9bdzy16?videoFoam=true", "Creating Your Own Financial Story", "Living East Tennessee HMW • ABC 6 WATE • Knoxville")}>Living East Tennessee HMW</div>
                     </div>}
+                    <button onClick={this.toggle.bind(this, "lansing")}>
+                        Lansing
+                    </button>
+                    {this.state.displayLan && <div>
+                        <div style={{color: "#00FF00"}} className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/fvvg3r441t?videoFoam=true", "'How Money Works' Author Steve Siebold on Studio 10", "Studio 10 • NBC Lansing • Lansing")}>Studio 10</div>
+                    </div>}
                     <button onClick={this.toggle.bind(this, "las vegas")}>
                         Las Vegas
                     </button>
@@ -762,6 +786,7 @@ export default class Body extends Component {
                         Philadelphia
                     </button>
                     {this.state.displayPhi && <div>
+                        <div style={{color: "#00FF00"}} className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/pzqyrrxpy8?videoFoam=true", "How to teach kids important money lessons at the holidays", "Morning News • PHL17 • Philadelphia")}>PHL Morning News</div>
                         <div className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/8zpgzwumjo?videoFoam=true", "You can loose weight by thinking like a thin person", "CBS 3 Philly • CBS CBS 03 • Philadelphia")}>CBS 3 Philly</div>
                         <div className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/ujtsr8qthn?videoFoam=true", "Will shocking people out of self-delusion work towards getting fit?", "The 10! Show - 1 • NBC WCAU • Philadelphia")}>The 10! Show - 1</div>
                         <div className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/yfy17n3bav?videoFoam=true", "Can changing your thinking lead to financial success?", "The 10! Show - 2 • NBC WCAU • Philadelphia")}>The 10! Show - 2</div>
@@ -892,6 +917,7 @@ export default class Body extends Component {
                         Toronto
                     </button>
                     {this.state.displayTor && <div>
+                        <div style={{color: "#00FF00"}} className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/lhhbx0qhsg?videoFoam=true", "Tips To Teach Your Kids About Money", "Breakfast Television • City TV • Toronto")}>Breakfast Television</div>
                         <div className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/daaeiqwbbu?videoFoam=true", "101 Differences Between Fit/Fat People", "Breakfast Television • City TV • Toronto")}>Breakfast Television</div>
                         <div className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/b05c130uyf?videoFoam=true", "Is McDonald's to blame for heart disease or the obesity epidemic?", "Connect With Mark Kelley • CBC • Toronto")}>Connect With Mark Kelley</div>
                         <div className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/rnx9trd8k0?videoFoam=true", "Author Steve Siebold delivers his message about obesity.", "The Marilyn Denis Show • CTV CTV Two • Toronto")}>The Marilyn Denis Show</div>
