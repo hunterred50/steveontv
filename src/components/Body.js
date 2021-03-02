@@ -796,6 +796,7 @@ export default class Body extends Component {
                     </button>
                     {this.state.displayPho && <div>
                         {/* <div className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/jejwtlu0fs?videoFoam=true", "Struggling with weight loss could all be in your head", "Arizona Midday • NBC 12 KPNX • Phoenix")}>Arizona Midday</div> */}
+                        <div style={{color: "#00FF00"}} className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/iprshcx1vk?videoFoam=true", "5 tips for setting yourself up for financial success in the new year", "Good Morning Arizona • CBS 5 GMAZ • Phoenix")}>Good Morning Arizona</div>
                         <div style={{color: "#00FF00"}} className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/bdnzzx7ccw?videoFoam=true", "Common money myths and how to regain your financial footing from the pandemic", "Good Morning Arizona HMW • CBS 5 GMAZ • Phoenix")}>Good Morning Arizona HMW</div>
                         <div className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/ny49igiwmm?videoFoam=true", "Ways to keep New Year's resolutions", "Arizona Midday - New Year Resolutions • NBC KPNX • Phoenix")}>Arizona Midday - New York</div>
                         <div className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/jejwtlu0fs?videoFoam=true", "If you want to be rich, you need to start thinking rich.", "Good Morning Arizona • KTVK • Phoenix")}>Good Morning Arizona</div>
@@ -842,6 +843,7 @@ export default class Body extends Component {
                         San Antonio
                     </button>
                     {this.state.displaySnA && <div>
+                        <div style={{color: "#00FF00"}} className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/g6ennnjirg?videoFoam=true", "Some of the most common money myths and misconceptions", "Great Day San Antonio • CBS 5 KENS • San Antonio")}>Great Day San Antonio</div>
                         <div style={{color: "#00FF00"}} className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/xvt4p2pmwg?videoFoam=true", "Avoiding debt while holiday shopping", "KENS 5 How Money Works • CBS 5 KENS • San Antonio")}>KENS 5 How Money Works</div>
                         <div style={{color: "#00FF00"}} className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/han1jy2ex7?videoFoam=true", "Easy ways to start making money right now ahead of the holiday season", "Daytime with Kimberly & Esteban HMW • Fox 29 KABB • San Antonio")}>Daytime with Kimberly & Esteban HMW</div>
                         <div style={{color: "#00FF00"}} className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/4bzv82ar62?videoFoam=true", "If you want to make money, you have to know how it works", "San Antonio Live HMW • KSAT 12 • San Antonio")}>San Antonio Live HMW</div>
