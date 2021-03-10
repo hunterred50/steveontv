@@ -47,6 +47,7 @@ export default class Body extends Component {
             displayNOr: false,
             displayNYo: false,
             displayNew: false,
+            displayOkl: false,
             displayOrl: false,
             displayPal: false,
             displayPaS: false,
@@ -69,6 +70,8 @@ export default class Body extends Component {
             displayTam: false,
             displayTol: false,
             displayTor: false,
+            displayTra: false,
+            displayVan: false,
             displayWar: false,
             displayWas: false,
             displayWes: false,
@@ -294,6 +297,11 @@ export default class Body extends Component {
                 displayNew: !state.displayNew
             }));
         }
+        if(city === "oklahoma city") {
+            this.setState(state => ({
+                displayOkl: !state.displayOkl
+            }));
+        }
         if(city === "orlando") {
             this.setState(state => ({
                 displayOrl: !state.displayOrl
@@ -404,6 +412,16 @@ export default class Body extends Component {
                 displayTor: !state.displayTor
             }));
         }
+        if(city === "traverse city") {
+            this.setState(state => ({
+                displayTra: !state.displayTra
+            }));
+        }
+        if(city === "vancouver") {
+            this.setState(state => ({
+                displayVan: !state.displayVan
+            }));
+        }
         if(city === "warsaw") {
             this.setState(state => ({
                 displayWar: !state.displayWar
@@ -492,7 +510,7 @@ export default class Body extends Component {
                         Charlotte
                     </button>
                     {this.state.displayChr && <div>
-                        <div className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/5omcueeiz8?videoFoam=true", "How to shop smart this holiday season", "Good Day Charlotte HMW • Fox 46 WJZY • Charlotte")}>Charlotte Today - How Rich People Think</div>
+                        <div style={{color: "#00FF00"}} className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/5omcueeiz8?videoFoam=true", "How to shop smart this holiday season", "Good Day Charlotte HMW • Fox 46 WJZY • Charlotte")}>Charlotte Today - How Rich People Think</div>
                         <div className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/mv2p6b8wex?videoFoam=true", "How do we begin to change our thinking?", "Charlotte Today How Rich People Think • NBC WCNC • Charlotte")}>Charlotte Today - How Rich People Think</div>
                         <div className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/7j62qf4yzl?videoFoam=true", "Sex, Politics, Religion", "Charlotte Today - Sex Politics Religion • WCNC News Chanel 36 • Charlotte")}>Charlotte Today - Sex, Politics, Religion</div>
                         <div className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/afyxaqt7tb?videoFoam=true", "What is the key to financial Success?", "Fox News Rising • FOX WCCB • Charlotte")}>Fox News Rising</div>
@@ -589,6 +607,7 @@ export default class Body extends Component {
                         Grand Rapids
                     </button>
                     {this.state.displayGra && <div>
+                        <div style={{color: "#00FF00"}} className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/x10kigytuf?videoFoam=true", "How couples can see eye-to-eye on money as Valentine's Day approaches", "Fox 17 Morning News • Fox 17 WXMI • Grand Rapids")}>Fox 17 Morning News</div>
                         <div className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/76uug7ywcd?videoFoam=true", "Do you know what you want in your ultimate scenario?", "Fox 17 Morning News • Fox 17 WXMI • Grand Rapids")}>Fox 17 Morning News</div>
                     </div>}
                     <button onClick={this.toggle.bind(this, "greensboro")}>
@@ -619,6 +638,7 @@ export default class Body extends Component {
                         Indianapolis
                     </button>
                     {this.state.displayInd && <div>
+                        <div style={{color: "#00FF00"}} className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/x10kigytuf?videoFoam=true", "How couples can better see eye-to-eye on money as Valentine's Day approaches", "Fox News • Fox 59 • Indianapolis")}>Fox News HMW</div>
                         <div className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/k6jt5ughti?videoFoam=true", "Author Steve Siebold encourages critical thinking", "Fox News • Fox 59 • Indianapolis")}>Fox News</div>
                         <div className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/e9xo9146q6?videoFoam=true", "Unless you have a  medical condition, if you are fat it is your fault!", "Indy Style • CBS WISH • Indianapolis")}>Indy Style</div>
                         <div className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/g3jptt04lt?videoFoam=true", "What separates rich people from the middle class?", "Indy Style - HRPT • Wish TV • Indianapolis")}>Indy Style - HRPT</div>
@@ -679,6 +699,7 @@ export default class Body extends Component {
                         Louisville
                     </button>
                     {this.state.displayLou && <div>
+                        <div style={{color: "#00FF00"}} className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/jx1df9wjzg?videoFoam=true", "How couples with different financial philosophies can get on the same financial page", "WAVE 3 Listens Live! • NBC WAVE 3 • Louisville")}>WAVE 3 Listens Live!</div>
                         <div className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/l3x77gvdj4?videoFoam=true", "Put down the fork and go to the gym!", "WHAS11.com • Broadcast Interactive Media • Louisville")}>WHAS11.com</div>
                     </div>}
                     <button onClick={this.toggle.bind(this, "mankato")}>
@@ -697,6 +718,7 @@ export default class Body extends Component {
                         Milwaukee
                     </button>
                     {this.state.displayMil && <div>
+                        <div style={{color: "#00FF00"}} className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/xprl71q9q1?videoFoam=true", "How couples can see eye-to-eye on money as Valentine's Day approaches", "The Morning Blend • TMJ4 Today • Milwaukee")}>The Morning Blend HMW</div>
                         <div className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/cua65t9uuv?videoFoam=true", "The Mental Toughness Habits of Champions", "The Morning Blend • TMJ4 Today • Milwaukee")}>The Morning Blend 177</div>
                         <div style={{color: "#00FF00"}} className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/1zkngrb8k7?videoFoam=true", "The best ways to teach your kids about money", "The Morning Blend • TMJ4 Today • Milwaukee")}>The Morning Blend HMW</div>
                         <div className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/ffhr9rioxd?videoFoam=true", "How Rich People Think", "The Morning Blend • TMJ4 Today • Milwaukee")}>The Morning Blend</div>
@@ -756,6 +778,12 @@ export default class Body extends Component {
                     </button>
                     {this.state.displayNew && <div>
                         <div className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/nfg6x21zhv?videoFoam=true", "What keeps us from thinking rich?", "It's Your Money • NJ 12 • Newark")}>It's Your Money</div>
+                    </div>}
+                    <button onClick={this.toggle.bind(this, "oklahoma city")}>
+                        Oklahoma City
+                    </button>
+                    {this.state.displayOkl && <div>
+                        <div className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/h99rcmww0d?videoFoam=true", "How couples can overcome their financial differences", "Can You Relate? • KWTV News 9 • Oklahoma City")}>Can You Relate?</div>
                     </div>}
                     <button onClick={this.toggle.bind(this, "orlando")}>
                         Orlando
@@ -901,6 +929,7 @@ export default class Body extends Component {
                         Tampa
                     </button>
                     {this.state.displayTam && <div>
+                        <div style={{color: "#00FF00"}} className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/wn8403te7q??videoFoam=true", "How couples can better see eye-to-eye on money as Valentine's Day approaches", "Daytime HMW • NBC 8 WFLA • Tampa")}>Daytime HMW</div>
                         <div style={{color: "#00FF00"}} className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/6pfo74ffhq?videoFoam=true", "How do we change our attitudes about money?", "Daytime HMW • NBC 8 WFLA • Tampa")}>Daytime HMW</div>
                         <div style={{color: "#00FF00"}} className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/dh5absx1wf?videoFoam=true", "Gaining Financial Health in 2020", "Great Day Tampa Bay HMW • CBS 10 WTSP • Tampa")}>Great Day Tampa Bay HMW</div>
                         <div className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/1a1jbb1cjq?videoFoam=true", "Could mental toughness give you that extra push to get fit?", "Bay News 9 • Cable • Tampa")}>Bay News 9</div>
@@ -924,6 +953,18 @@ export default class Body extends Component {
                         <div className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/b05c130uyf?videoFoam=true", "Is McDonald's to blame for heart disease or the obesity epidemic?", "Connect With Mark Kelley • CBC • Toronto")}>Connect With Mark Kelley</div>
                         <div className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/rnx9trd8k0?videoFoam=true", "Author Steve Siebold delivers his message about obesity.", "The Marilyn Denis Show • CTV CTV Two • Toronto")}>The Marilyn Denis Show</div>
                     </div>}
+                    <button onClick={this.toggle.bind(this, "traverse city")}>
+                        Traverse City
+                    </button>
+                    {this.state.displayTra && <div>
+                        <div style={{color: "#00FF00"}} className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/235u6n2y9d?videoFoam=true", "How couples can see eye-to-eye when it comes to money", "9&10 News the four • 9&10 News WWTV • Traverse City")}>9&10 News the four</div>
+                    </div>}
+                    <button onClick={this.toggle.bind(this, "vancouver")}>
+                        Vancouver
+                    </button>
+                    {this.state.displayVan && <div>
+                        <div style={{color: "#00FF00"}} className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/hr2md0i36o?videoFoam=true", "What couples can do when they don't see eye-to-eye on money", "Global News Canada • Global News Morning • Vancouver")}>Global News Canada</div>
+                    </div>}                    
                     <button onClick={this.toggle.bind(this, "warsaw")}>
                         Warsaw
                     </button>
@@ -934,6 +975,7 @@ export default class Body extends Component {
                         Washington
                     </button>
                     {this.state.displayWas && <div>
+                        <div style={{color: "#00FF00"}} className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/2wocuknqdy?videoFoam=true", "How couples can work through their differences when it comes to money", "Good Morning Washington • ABC 7 WJLA • Washington")}>Good Morning Washington</div>
                         <div style={{color: "#00FF00"}} className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/2mm9vdowgo?videoFoam=true", "How far will stimulus checks go during the COVID-19 crisis?", "Fox 5 • FOX 5 WTTG • Washington")}>Fox 5 HMW</div>
                         <div className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/rp7kdaei14?videoFoam=true", "If you are fat, it's your fault!", "Fox 5 Morning News • FOX 5 WTTG • Washington")}>Fox 5 Morning News</div>
                         <div className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/bgskbuzbf1?videoFoam=true", "Is the obesity epidemic in the US out of control?", "Let's Talk Live • News Channel 8 • Washington")}>Let's Talk Live</div>
