@@ -8,6 +8,7 @@ export default class Body extends Component {
             displayAtl: false,
             displayAug: false,
             displayBei: false,
+            displayBir: false,
             displayBos: false,
             displayCal: false,
             displayCha: false,
@@ -100,6 +101,11 @@ export default class Body extends Component {
         if(city === "beijing") {
             this.setState(state => ({
                 displayBei: !state.displayBei
+            }));
+        }
+        if(city === "birmingham") {
+            this.setState(state => ({
+                displayBir: !state.displayBir
             }));
         }
         if(city === "boston") {
@@ -488,6 +494,12 @@ export default class Body extends Component {
                     {this.state.displayBei && <div>
                         <div className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/18kolhfab4?videoFoam=true", "Sex and Politics", "CCTV • America • Beijing")}>CCTV</div>
                     </div>}
+                    <button onClick={this.toggle.bind(this, "birmingham")}>
+                        Birmingham
+                    </button>
+                    {this.state.displayBir && <div>
+                        <div className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/a8jz31x6k0?videoFoam=true", "How to Spring Clean your Finances", "Talk of Alabama • ABC 33/40 • Birmingham")}>Talk of Alabama</div>
+                    </div>}
                     <button onClick={this.toggle.bind(this, "boston")}>
                         Boston
                     </button>
@@ -690,6 +702,7 @@ export default class Body extends Component {
                         Los Angeles
                     </button>
                     {this.state.displayLos && <div>
+                        <div style={{color: "#00FF00"}} className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/b3e75isnnn?videoFoam=true", "How to spring clean your finances", "KTLA Morning News HMW • CW 5 KTLA • Los Angeles")}>KTLA Morning News HMW</div>
                         <div style={{color: "#00FF00"}} className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/p59ugzdj4s?videoFoam=true", "In a world full of chaos comes massive opportunities to make money", "KTLA Morning News HMW • CW 5 KTLA • Los Angeles")}>KTLA Morning News HMW</div>
                         <div className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/ijhnse5rwe?videoFoam=true", "Are we our own worst enemies?", "KTLA 5 • News at 1 • Los Angeles")}>KTLA 5</div>
                         <div className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/76570d6yfn?videoFoam=true", "How do we change our mindset when we can't even pay our bills?", "KTLA Morning News • CBS KTLA • Los Angeles")}>KTLA Morning News</div>
@@ -747,7 +760,7 @@ export default class Body extends Component {
                         New York
                     </button>
                     {this.state.displayNYo && <div>
-                        <div className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/fw0zo6zzb9?videoFoam=true", "Is Mental Toughness the solution to finally taking control of your weight?", "Better • Health to Health • New York")}>Better</div>
+                        <div className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/fw0zo6zzb9?videoFoam=true", "Is Mental Toughness the solution to finally taking control of your weight?", "Better Show • Health to Health • New York")}>Better Show</div>
                         <div className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/qjjo3e3wj0?videoFoam=true", "Can changing your mind change your bank account?", "Fox Business Live • FOX Business • New York")}>Fox Business Live</div>
                         <div className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/r7y6vtakr8?videoFoam=true", "Does eliminating fear pave the way to riches?", "Good Day NY • FOX WNYW • New York")}>Good Day NY</div>
                         <div className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/6qnsb70pex?videoFoam=true", "Is Mental Toughness the answer to getting fit and healthy?", "Good Morning America • ABC WABC • New York")}>Good Morning America</div>
@@ -871,6 +884,7 @@ export default class Body extends Component {
                         San Antonio
                     </button>
                     {this.state.displaySnA && <div>
+                        <div style={{color: "#00FF00"}} className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/0bujh1gr2o?videoFoam=true", "How to do a financial spring cleaning", "Daytime with Kimberly & Esteban • Fox 29 KABB • San Antonio")}>Daytime with Kimberly & Esteban</div>
                         <div style={{color: "#00FF00"}} className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/g6ennnjirg?videoFoam=true", "Some of the most common money myths and misconceptions", "Great Day San Antonio • CBS 5 KENS • San Antonio")}>Great Day San Antonio</div>
                         <div style={{color: "#00FF00"}} className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/xvt4p2pmwg?videoFoam=true", "Avoiding debt while holiday shopping", "KENS 5 How Money Works • CBS 5 KENS • San Antonio")}>KENS 5 How Money Works</div>
                         <div style={{color: "#00FF00"}} className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/han1jy2ex7?videoFoam=true", "Easy ways to start making money right now ahead of the holiday season", "Daytime with Kimberly & Esteban HMW • Fox 29 KABB • San Antonio")}>Daytime with Kimberly & Esteban HMW</div>
@@ -951,12 +965,13 @@ export default class Body extends Component {
                         <div style={{color: "#00FF00"}} className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/lhhbx0qhsg?videoFoam=true", "Tips To Teach Your Kids About Money", "Breakfast Television • City TV • Toronto")}>Breakfast Television</div>
                         <div className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/daaeiqwbbu?videoFoam=true", "101 Differences Between Fit/Fat People", "Breakfast Television • City TV • Toronto")}>Breakfast Television</div>
                         <div className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/b05c130uyf?videoFoam=true", "Is McDonald's to blame for heart disease or the obesity epidemic?", "Connect With Mark Kelley • CBC • Toronto")}>Connect With Mark Kelley</div>
-                        <div className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/rnx9trd8k0?videoFoam=true", "Author Steve Siebold delivers his message about obesity.", "The Marilyn Denis Show • CTV CTV Two • Toronto")}>The Marilyn Denis Show</div>
+                        <div className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/rnx9trd8k0?videoFoam=true", "Author Steve Siebold delivers his message about obesity.", "The Marilyn Denis Show • CTV Two • Toronto")}>The Marilyn Denis Show</div>
                     </div>}
                     <button onClick={this.toggle.bind(this, "traverse city")}>
                         Traverse City
                     </button>
                     {this.state.displayTra && <div>
+                        <div style={{color: "#00FF00"}} className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/zsnpsw1dwo?videoFoam=true", "How to do a financial spring cleaning", "9&10 News the four HMW • 9&10 News WWTV • Traverse City")}>9&10 News the four HMW</div>
                         <div style={{color: "#00FF00"}} className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/235u6n2y9d?videoFoam=true", "How couples can see eye-to-eye when it comes to money", "9&10 News the four • 9&10 News WWTV • Traverse City")}>9&10 News the four</div>
                     </div>}
                     <button onClick={this.toggle.bind(this, "vancouver")}>
