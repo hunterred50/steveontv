@@ -30,6 +30,7 @@ export default class Body extends Component {
             displayGre: false,
             displayHar: false,
             displayHrr: false,
+            displayHou: false,
             displayHun: false,
             displayInd: false,
             displayJac: false,
@@ -211,6 +212,11 @@ export default class Body extends Component {
         if(city === "hartford") {
             this.setState(state => ({
                 displayHar: !state.displayHar
+            }));
+        }
+        if(city === "houston") {
+            this.setState(state => ({
+                displayHou: !state.displayHou
             }));
         }
         if(city === "huntington") {
@@ -639,6 +645,12 @@ export default class Body extends Component {
                     </button>
                     {this.state.displayHar && <div>
                         <div className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/cuqtjfeso9?videoFoam=true", "What really separates world class from middle class?", "Connecticut Style • ABC WTNH • Hartford")}>Connecticut Style</div>
+                    </div>}
+                    <button onClick={this.toggle.bind(this, "houston")}>
+                        Houston
+                    </button>
+                    {this.state.displayHou && <div>
+                        <div className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/66zbcpybt1?videoFoam=true", "Financial Literacy Month and how people can be smarter with their money", "Sullivan's Smart Sense • FOX 26 • Houston")}>Sullivan's Smart Sense</div>
                     </div>}
                     <button onClick={this.toggle.bind(this, "huntington")}>
                         Huntington
