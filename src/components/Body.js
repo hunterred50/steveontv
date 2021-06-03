@@ -586,6 +586,7 @@ export default class Body extends Component {
                         Denver
                     </button>
                     {this.state.displayDen && <div>
+                        <div style={{color: "#00FF00"}} className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/kgrsk7l26d?videoFoam=true", "Steve Siebold on Fox 31 News Denver", "Morning News HMW • Fox 31 KDVR • Denver")}>Morning News Summer Money</div>
                         <div style={{color: "#00FF00"}} className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/0vdvvmb7q0?videoFoam=true", "Maintaining Financial Security During the Pandemic", "Morning News HMW • Fox 31 KDVR • Denver")}>Morning News HMW</div>
                         <div className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/2vt0m69kb8?videoFoam=true", "Can this book help you lose weight and get fit?", "Daybreak • CW KWGN • Denver")}>Daybreak</div>
                         <div className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/86es2vws2h?videoFoam=true", "Tips to get fit and lose weight!", "Good Morning Colorado • FOX KDVR • Denver")}>Good Morning Colorado</div>
@@ -679,6 +680,7 @@ export default class Body extends Component {
                         Kansas City
                     </button>
                     {this.state.displayKan && <div>
+                        <div style={{color: "#00FF00"}} className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/g2esivz1mz?videoFoam=true", "'How Money Works' Author Steve Siebold on CBS 5 Kansas City", "CBS 5 Kansas City • CBS 5 • Kansas City")}>CBS 5 Kansas City</div>
                         <div style={{color: "#00FF00"}} className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/16kwbq8e68?videoFoam=true", "How not to overspend this holiday shopping season", "Fox 4 How Money Works • Fox 4 WDAF • Kansas City")}>Fox 4 How Money Works</div>
                         <div className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/o6vd2re58a?videoFoam=true", "Author Steve Siebold details his journey into the mind of the mega-wealthy.", "KCL • NBC KSHB-41 • Kansas City")}>KCL</div>
                     </div>}
@@ -849,6 +851,7 @@ export default class Body extends Component {
                     </button>
                     {this.state.displayPho && <div>
                         {/* <div className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/jejwtlu0fs?videoFoam=true", "Struggling with weight loss could all be in your head", "Arizona Midday • NBC 12 KPNX • Phoenix")}>Arizona Midday</div> */}
+                        <div style={{color: "#00FF00"}} className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/ory1ojzeoq?videoFoam=true", "'How Money Works' Author Steve Siebold on Good Morning Arizona", "Good Morning Arizona • CBS 5 GMAZ • Phoenix")}>Good Morning Arizona Financial Footing</div>
                         <div style={{color: "#00FF00"}} className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/iprshcx1vk?videoFoam=true", "5 tips for setting yourself up for financial success in the new year", "Good Morning Arizona • CBS 5 GMAZ • Phoenix")}>Good Morning Arizona</div>
                         <div style={{color: "#00FF00"}} className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/bdnzzx7ccw?videoFoam=true", "Common money myths and how to regain your financial footing from the pandemic", "Good Morning Arizona HMW • CBS 5 GMAZ • Phoenix")}>Good Morning Arizona HMW</div>
                         <div className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/ny49igiwmm?videoFoam=true", "Ways to keep New Year's resolutions", "Arizona Midday - New Year Resolutions • NBC KPNX • Phoenix")}>Arizona Midday - New York</div>
@@ -924,6 +927,7 @@ export default class Body extends Component {
                         Seattle
                     </button>
                     {this.state.displaySea && <div>
+                        <div className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/osj5cild55?videoFoam=true", "'How Money Works' Author Steve Siebold on Q13 Fox News in Seattle", "Q13 • Fox News • Seattle")}>Q13 Fox News</div>
                         <div className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/8g9i9n693y?videoFoam=true", "Is your focus on financial survival or getting rich?", "KOMO 4 • Money Works News • Seattle")}>KOMO 4</div>
                         <div className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/uwg9sgw065?videoFoam=true", "Steve Siebold dissects the human psyche", "New Day Northwest • NBC King5 • Seattle")}>KOMO 4</div>
                     </div>}
@@ -1002,6 +1006,7 @@ export default class Body extends Component {
                         Washington
                     </button>
                     {this.state.displayWas && <div>
+                        <div style={{color: "#00FF00"}} className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/9we5z9op0l?videoFoam=true", "'How Money Works' Author Steve Siebold on Good Morning Washington", "Good Morning Washington • ABC 7 WJLA • Washington")}>Good Morning Washington HMW</div>
                         <div style={{color: "#00FF00"}} className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/2wocuknqdy?videoFoam=true", "How couples can work through their differences when it comes to money", "Good Morning Washington • ABC 7 WJLA • Washington")}>Good Morning Washington</div>
                         <div style={{color: "#00FF00"}} className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/2mm9vdowgo?videoFoam=true", "How far will stimulus checks go during the COVID-19 crisis?", "Fox 5 • FOX 5 WTTG • Washington")}>Fox 5 HMW</div>
                         <div className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/rp7kdaei14?videoFoam=true", "If you are fat, it's your fault!", "Fox 5 Morning News • FOX 5 WTTG • Washington")}>Fox 5 Morning News</div>
