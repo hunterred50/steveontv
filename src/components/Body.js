@@ -622,7 +622,7 @@ export default class Body extends Component {
                         <div className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/yk0c4qt9cq?videoFoam=true", "Are FAT people liars?", "South Florida Live • CW WSFL • Ft. Lauderdale")}>South Florida Live</div>
                     </div>}
                     <button onClick={this.toggle.bind(this, "grand rapids")}>
-                        Grand Rapids
+                        Grand Rapids 
                     </button>
                     {this.state.displayGra && <div>
                         <div style={{color: "#00FF00"}} className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/x10kigytuf?videoFoam=true", "How couples can see eye-to-eye on money as Valentine's Day approaches", "Fox 17 Morning News • Fox 17 WXMI • Grand Rapids")}>Fox 17 Morning News</div>
