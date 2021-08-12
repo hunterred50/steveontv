@@ -537,6 +537,7 @@ export default class Body extends Component {
                         Chicago
                     </button>
                     {this.state.displayChi && <div>
+                        <div className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/3yjg2txjyf?videoFoam=true", "5 Money Lies to Stop Telling Your Children", "FOX 32 Chicago • WFLD FOX 32 • Chicago")}>FOX 32 Chicago</div>
                         <div className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/5efrj8tjhu?videoFoam=true", "What are the top differences in the way people think?", "First Business • Nationally Syndicated • Chicago")}>First Business</div>
                         <div className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/w45nkualsb?videoFoam=true", "Steve Siebold Breaks Down Common Diet Myths", "WGN • Morning News TV • Chicago")}>WGN</div>
                         <div className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/wb36lya77k?videoFoam=true", "Secrets Self-Made Millionaires Teach Their Kids", "WGN - TheSecretsBook.com • Morning Show • Chicago")}>WGN - TheSecretsBook.com</div>
@@ -609,6 +610,7 @@ export default class Body extends Component {
                     {this.state.displayEdm && <div>
                         <div className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/vi8bymvse3?videoFoam=true", "Weight Loss with Steve Siebold", "CTV - Fat Loser Book • CTV Morning Show • Edmonton")}>CTV - Fat Loser Book</div>
                         <div className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/57oy8yaec1?videoFoam=true", "Secrets Self-Made Millionaires Teach Their Kids", "CTV - Millionaire Kids • CTV Morning Show • Edmonton")}>CTV - Millionaire Kids</div>
+                        <div style={{color: "#00FF00"}} className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/2ljsuy2b5r?videoFoam=true", "Teach Your Kids About Money This Summer", "CTV - Summer Money • CTV Morning Show • Edmonton")}>CTV - Summer Money</div>
                     </div>}
                     <button onClick={this.toggle.bind(this, "fairway")}>
                         Fairway
@@ -680,6 +682,7 @@ export default class Body extends Component {
                         Kansas City
                     </button>
                     {this.state.displayKan && <div>
+                        <div style={{color: "#00FF00"}} className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/io15bvyjqs?videoFoam=true", "'How Money Works' Author Steve Siebold on FOX 4 Sports Sunday", "FOX 4 Sports Sunday • FOX 4 • Kansas City")}>FOX 4 Sports Sunday</div>
                         <div style={{color: "#00FF00"}} className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/g2esivz1mz?videoFoam=true", "'How Money Works' Author Steve Siebold on CBS 5 Kansas City", "CBS 5 Kansas City • CBS 5 • Kansas City")}>CBS 5 Kansas City</div>
                         <div style={{color: "#00FF00"}} className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/16kwbq8e68?videoFoam=true", "How not to overspend this holiday shopping season", "Fox 4 How Money Works • Fox 4 WDAF • Kansas City")}>Fox 4 How Money Works</div>
                         <div className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/o6vd2re58a?videoFoam=true", "Author Steve Siebold details his journey into the mind of the mega-wealthy.", "KCL • NBC KSHB-41 • Kansas City")}>KCL</div>
@@ -763,6 +766,7 @@ export default class Body extends Component {
                     {this.state.displayNas && <div>
                         <div className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/h6e2st4wz6?videoFoam=true", "Is coddling fat people the right thing to do?", "More at Midday • NBC 4 WSMV • Nashville")}>More at Midday</div>
                         <div className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/aqqbq34r35?videoFoam=true", "What separates rich people from the middle class?", "Tennessee Mornings • FOX WZTV • Nashville")}>Tennessee Mornings</div>
+                        <div className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/orsitextgq?videoFoam=true", "The Truth About Personal Finance", "Today in Nashville • NBC 4 WSMV • Nashville")}>Today in Nashville</div>
                     </div>}
                     <button onClick={this.toggle.bind(this, "new orleans")}>
                         New Orleans
@@ -906,6 +910,7 @@ export default class Body extends Component {
                         <div style={{color: "#00FF00"}} className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/4bzv82ar62?videoFoam=true", "If you want to make money, you have to know how it works", "San Antonio Live HMW • KSAT 12 • San Antonio")}>San Antonio Live HMW</div>
                         <div style={{color: "#00FF00"}} className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/uhf94svpvf?videoFoam=true", "Financial pivots to make during the COVID crisis", "San Antonio Living HMW • News 4 WOAI • San Antonio")}>San Antonio Living HMW</div>
                         <div style={{color: "#00FF00"}} className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/e194aundq3?videoFoam=true", "Financial Literacy in America", "Great Day San Antonio HMW • CBS 5 KENS • San Antonio")}>Great Day San Antonio HMW</div>
+                        <div style={{color: "#00FF00"}} className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/g1z93atk8s?videoFoam=true", "Saving Money Tips For Kids", "Great Day SA HMW • CBS 5 KENS • San Antonio")}>Great Day SA - Money Saving Tips</div>
                     </div>}
                     <button onClick={this.toggle.bind(this, "san diego")}>
                         San Diego
@@ -959,6 +964,7 @@ export default class Body extends Component {
                         Tampa
                     </button>
                     {this.state.displayTam && <div>
+                        <div style={{color: "#00FF00"}} className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/m3m6qbh4h2??videoFoam=true", "'How Money Works' Author Steve Siebold on Daytime", "Daytime HMW • NBC 8 WFLA • Tampa")}>Daytime HMW</div>
                         <div style={{color: "#00FF00"}} className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/wn8403te7q??videoFoam=true", "How couples can better see eye-to-eye on money as Valentine's Day approaches", "Daytime HMW • NBC 8 WFLA • Tampa")}>Daytime HMW</div>
                         <div style={{color: "#00FF00"}} className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/6pfo74ffhq?videoFoam=true", "How do we change our attitudes about money?", "Daytime HMW • NBC 8 WFLA • Tampa")}>Daytime HMW</div>
                         <div style={{color: "#00FF00"}} className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/dh5absx1wf?videoFoam=true", "Gaining Financial Health in 2020", "Great Day Tampa Bay HMW • CBS 10 WTSP • Tampa")}>Great Day Tampa Bay HMW</div>
@@ -978,6 +984,7 @@ export default class Body extends Component {
                         Toronto
                     </button>
                     {this.state.displayTor && <div>
+                        <div style={{color: "#00FF00"}} className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/1x29rsufnm?videoFoam=true", "5 Lies You Need to Stop Telling Your Kids About Money", "Breakfast Television • City TV • Toronto")}>Breakfast Television - Money Lies</div>
                         <div style={{color: "#00FF00"}} className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/lhhbx0qhsg?videoFoam=true", "Tips To Teach Your Kids About Money", "Breakfast Television • City TV • Toronto")}>Breakfast Television</div>
                         <div className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/daaeiqwbbu?videoFoam=true", "101 Differences Between Fit/Fat People", "Breakfast Television • City TV • Toronto")}>Breakfast Television</div>
                         <div className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/b05c130uyf?videoFoam=true", "Is McDonald's to blame for heart disease or the obesity epidemic?", "Connect With Mark Kelley • CBC • Toronto")}>Connect With Mark Kelley</div>
