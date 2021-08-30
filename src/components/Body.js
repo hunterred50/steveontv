@@ -748,6 +748,7 @@ export default class Body extends Component {
                         Milwaukee
                     </button>
                     {this.state.displayMil && <div>
+                        <div style={{color: "#00FF00"}} className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/2o01dotm90?videoFoam=true", "'How Money Works' Author Steve Siebold on The Morning Blend", "The Morning Blend • TMJ4 Today • Milwaukee")}>The Morning Blend HMW</div>
                         <div style={{color: "#00FF00"}} className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/xprl71q9q1?videoFoam=true", "How couples can see eye-to-eye on money as Valentine's Day approaches", "The Morning Blend • TMJ4 Today • Milwaukee")}>The Morning Blend HMW</div>
                         <div className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/cua65t9uuv?videoFoam=true", "The Mental Toughness Habits of Champions", "The Morning Blend • TMJ4 Today • Milwaukee")}>The Morning Blend 177</div>
                         <div style={{color: "#00FF00"}} className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/1zkngrb8k7?videoFoam=true", "The best ways to teach your kids about money", "The Morning Blend • TMJ4 Today • Milwaukee")}>The Morning Blend HMW</div>
