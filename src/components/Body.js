@@ -547,6 +547,7 @@ export default class Body extends Component {
                         Cincinnati
                     </button>
                     {this.state.displayCin && <div>
+                        <div style={{color: "#00FF00"}} className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/9krdrkth79?videoFoam=true", "How Money Works", "Fox 19 • Now • Cincinnati")}>HMW Fox 19</div>
                         <div className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/4qt3qip02h?videoFoam=true", "Raising Successful Kids", "Fox 19 • Now • Cincinnati")}>Fox 19</div>
                         <div className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/o52goyh816?videoFoam=true", "Changing Thinking About Wealth", "Good Morning Cincinnati • WKRC Local 12 • Cincinnati")}>Good Morning Cincinnati</div>
                     </div>}
@@ -682,6 +683,7 @@ export default class Body extends Component {
                         Kansas City
                     </button>
                     {this.state.displayKan && <div>
+                        <div style={{color: "#00FF00"}} className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/2vd9o6xdpq?videoFoam=true", "'How Money Works' Author Steve Siebold featured on Great Day KC discussing tips to keep your holiday spending under control.", "Great Day KC • FOX 4 WDAF-TV • Kansas City")}>FOX 4 HMW Holidays</div>
                         <div style={{color: "#00FF00"}} className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/io15bvyjqs?videoFoam=true", "'How Money Works' Author Steve Siebold on FOX 4 Sports Sunday", "FOX 4 Sports Sunday • FOX 4 • Kansas City")}>FOX 4 Sports Sunday</div>
                         <div style={{color: "#00FF00"}} className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/g2esivz1mz?videoFoam=true", "'How Money Works' Author Steve Siebold on CBS 5 Kansas City", "CBS 5 Kansas City • CBS 5 • Kansas City")}>CBS 5 Kansas City</div>
                         <div style={{color: "#00FF00"}} className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/16kwbq8e68?videoFoam=true", "How not to overspend this holiday shopping season", "Fox 4 How Money Works • Fox 4 WDAF • Kansas City")}>Fox 4 How Money Works</div>
