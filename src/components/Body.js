@@ -59,6 +59,7 @@ export default class Body extends Component {
             displayPit: false,
             displayPor: false,
             displayRal: false,
+            displayRic: false,
             displaySac: false,
             displaySal: false,
             displaySnA: false,
@@ -359,6 +360,11 @@ export default class Body extends Component {
                 displayRal: !state.displayRal
             }));
         }
+        if(city === "richmond") {
+            this.setState(state => ({
+                displayRic: !state.displayRic
+            }));
+        }
         if(city === "sacramento") {
             this.setState(state => ({
                 displaySac: !state.displaySac
@@ -547,6 +553,9 @@ export default class Body extends Component {
                         Cincinnati
                     </button>
                     {this.state.displayCin && <div>
+                        <div style={{color: "#00FF00"}} className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/q2tckxbx1r?videoFoam=true", "Saving Green in March", "Fox 19 • Now • Cincinnati")}>HMW Fox 19</div>
+                        <div style={{color: "#00FF00"}} className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/hi35efit58?videoFoam=true", "Couples in Business", "Fox 19 • Now • Cincinnati")}>HMW Fox 19</div>
+                        <div style={{color: "#00FF00"}} className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/t459cbd3ex?videoFoam=true", "New Year's Money Resolution", "Fox 19 • Now • Cincinnati")}>HMW Fox 19</div>
                         <div style={{color: "#00FF00"}} className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/9krdrkth79?videoFoam=true", "How Money Works", "Fox 19 • Now • Cincinnati")}>HMW Fox 19</div>
                         <div className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/4qt3qip02h?videoFoam=true", "Raising Successful Kids", "Fox 19 • Now • Cincinnati")}>Fox 19</div>
                         <div className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/o52goyh816?videoFoam=true", "Changing Thinking About Wealth", "Good Morning Cincinnati • WKRC Local 12 • Cincinnati")}>Good Morning Cincinnati</div>
@@ -588,6 +597,7 @@ export default class Body extends Component {
                         Denver
                     </button>
                     {this.state.displayDen && <div>
+                        <div style={{color: "#00FF00"}} className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/ve4qrtgtkn?videoFoam=true", "Steve Siebold on Fox 31 News Denver", "Morning News HMW • Fox 31 KDVR • Denver")}>Morning News Summer Money</div>
                         <div style={{color: "#00FF00"}} className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/kgrsk7l26d?videoFoam=true", "Steve Siebold on Fox 31 News Denver", "Morning News HMW • Fox 31 KDVR • Denver")}>Morning News Summer Money</div>
                         <div style={{color: "#00FF00"}} className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/0vdvvmb7q0?videoFoam=true", "Maintaining Financial Security During the Pandemic", "Morning News HMW • Fox 31 KDVR • Denver")}>Morning News HMW</div>
                         <div className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/2vt0m69kb8?videoFoam=true", "Can this book help you lose weight and get fit?", "Daybreak • CW KWGN • Denver")}>Daybreak</div>
@@ -660,6 +670,7 @@ export default class Body extends Component {
                         Huntington
                     </button>
                     {this.state.displayHun && <div>
+                        <div style={{color: "#00FF00"}} className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/jptg16erda?videoFoam=true", "Five Ways to Save Money in March", "Studio 3 HMW • NBC 3 WSAZ • Huntington")}>Studio 3 HMW</div>
                         <div style={{color: "#00FF00"}} className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/1qf4w8z63q?videoFoam=true", "Breaking some of the biggest myths about money", "Studio 3 HMW • NBC 3 WSAZ • Huntington")}>Studio 3 HMW</div>
                     </div>}
                     <button onClick={this.toggle.bind(this, "indianapolis")}>
@@ -721,6 +732,7 @@ export default class Body extends Component {
                         Los Angeles
                     </button>
                     {this.state.displayLos && <div>
+                        <div style={{color: "#00FF00"}} className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/jhx1gkkymj?videoFoam=true", "Financial New Year's Resolutions", "KTLA Morning News HMW • CW 5 KTLA • Los Angeles")}>KTLA Morning News HMW</div>
                         <div style={{color: "#00FF00"}} className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/b3e75isnnn?videoFoam=true", "How to spring clean your finances", "KTLA Morning News HMW • CW 5 KTLA • Los Angeles")}>KTLA Morning News HMW</div>
                         <div style={{color: "#00FF00"}} className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/p59ugzdj4s?videoFoam=true", "In a world full of chaos comes massive opportunities to make money", "KTLA Morning News HMW • CW 5 KTLA • Los Angeles")}>KTLA Morning News HMW</div>
                         <div className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/ijhnse5rwe?videoFoam=true", "Are we our own worst enemies?", "KTLA 5 • News at 1 • Los Angeles")}>KTLA 5</div>
@@ -731,6 +743,7 @@ export default class Body extends Component {
                         Louisville
                     </button>
                     {this.state.displayLou && <div>
+                        <div style={{color: "#00FF00"}} className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/9678813001?videoFoam=true", "Couples in Business", "WAVE Country with Dawne Gee • NBC WAVE 3 • Louisville")}>WAVE Country with Dawne Gee</div>
                         <div style={{color: "#00FF00"}} className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/jx1df9wjzg?videoFoam=true", "How couples with different financial philosophies can get on the same financial page", "WAVE 3 Listens Live! • NBC WAVE 3 • Louisville")}>WAVE 3 Listens Live!</div>
                         <div className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/l3x77gvdj4?videoFoam=true", "Put down the fork and go to the gym!", "WHAS11.com • Broadcast Interactive Media • Louisville")}>WHAS11.com</div>
                     </div>}
@@ -750,6 +763,7 @@ export default class Body extends Component {
                         Milwaukee
                     </button>
                     {this.state.displayMil && <div>
+                        <div style={{color: "#00FF00"}} className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/vlfwlij4l8?videoFoam=true", "'How Money Works' Author Steve Siebold on The Morning Blend", "The Morning Blend • TMJ4 Today • Milwaukee")}>The Morning Blend HMW</div>
                         <div style={{color: "#00FF00"}} className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/2o01dotm90?videoFoam=true", "'How Money Works' Author Steve Siebold on The Morning Blend", "The Morning Blend • TMJ4 Today • Milwaukee")}>The Morning Blend HMW</div>
                         <div style={{color: "#00FF00"}} className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/xprl71q9q1?videoFoam=true", "How couples can see eye-to-eye on money as Valentine's Day approaches", "The Morning Blend • TMJ4 Today • Milwaukee")}>The Morning Blend HMW</div>
                         <div className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/cua65t9uuv?videoFoam=true", "The Mental Toughness Habits of Champions", "The Morning Blend • TMJ4 Today • Milwaukee")}>The Morning Blend 177</div>
@@ -781,6 +795,7 @@ export default class Body extends Component {
                         New York
                     </button>
                     {this.state.displayNYo && <div>
+                        <div className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/lxdzix5rd8?videoFoam=true", "Setting Financial Goals in 2022", "Morning News • PIX • New York")}>PIX Morning News</div>
                         <div className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/fw0zo6zzb9?videoFoam=true", "Is Mental Toughness the solution to finally taking control of your weight?", "Better Show • Health to Health • New York")}>Better Show</div>
                         <div className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/qjjo3e3wj0?videoFoam=true", "Can changing your mind change your bank account?", "Fox Business Live • FOX Business • New York")}>Fox Business Live</div>
                         <div className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/r7y6vtakr8?videoFoam=true", "Does eliminating fear pave the way to riches?", "Good Day NY • FOX WNYW • New York")}>Good Day NY</div>
@@ -857,6 +872,7 @@ export default class Body extends Component {
                         Phoenix
                     </button>
                     {this.state.displayPho && <div>
+                        <div style={{color: "#00FF00"}} className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/zn5cadejf5?videoFoam=true", "5 Money Goals for 2022", "Good Morning Arizona HMW • CBS 5 GMAZ • Phoenix")}>Good Morning Arizona HMW</div>
                         {/* <div className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/jejwtlu0fs?videoFoam=true", "Struggling with weight loss could all be in your head", "Arizona Midday • NBC 12 KPNX • Phoenix")}>Arizona Midday</div> */}
                         <div style={{color: "#00FF00"}} className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/ory1ojzeoq?videoFoam=true", "'How Money Works' Author Steve Siebold on Good Morning Arizona", "Good Morning Arizona • CBS 5 GMAZ • Phoenix")}>Good Morning Arizona Financial Footing</div>
                         <div style={{color: "#00FF00"}} className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/iprshcx1vk?videoFoam=true", "5 tips for setting yourself up for financial success in the new year", "Good Morning Arizona • CBS 5 GMAZ • Phoenix")}>Good Morning Arizona</div>
@@ -887,6 +903,12 @@ export default class Body extends Component {
                     </button>
                     {this.state.displayRal && <div>
                         <div className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/hkdjy69ews?videoFoam=true", "If you change the way you think about money, could you get more?", "My Carolina Today • NBC WNCN • Raleigh")}>My Carolina Today</div>
+                    </div>}
+                    <button onClick={this.toggle.bind(this, "richmond")}>
+                        Richmond
+                    </button>
+                    {this.state.displayRic && <div>
+                        <div className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/hkdjy69ews?videoFoam=true", "Steve Siebold on Virginia This Morning", "Virginia This Morning • WTVR CBS 6 • Richmond")}>Virginia This Morning</div>
                     </div>}
                     <button onClick={this.toggle.bind(this, "sacramento")}>
                         Sacramento
@@ -981,6 +1003,7 @@ export default class Body extends Component {
                         Toledo
                     </button>
                     {this.state.displayTol && <div>
+                        <div style={{color: "#00FF00"}} className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/s038tehdrj?videoFoam=true", "5 Ways To Save Money In March", "WTOL 11 HMW • CBS 11 WTOL • Toledo")}>WTOL 11 HMW</div>
                         <div style={{color: "#00FF00"}} className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/vqqe2oke7w?videoFoam=true", "The right ways to teach your kids about money", "WTOL 11 HMW • CBS 11 WTOL • Toledo")}>WTOL 11 HMW</div>
                     </div>}
                     <button onClick={this.toggle.bind(this, "toronto")}>
@@ -1004,6 +1027,7 @@ export default class Body extends Component {
                         Vancouver
                     </button>
                     {this.state.displayVan && <div>
+                        <div style={{color: "#00FF00"}} className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/bqc95tyhte?videoFoam=true", "HMW Author Steve Siebold on Global News Canada", "Global News Canada • Global News Morning • Vancouver")}>Global News Canada HMW</div>
                         <div style={{color: "#00FF00"}} className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/hr2md0i36o?videoFoam=true", "What couples can do when they don't see eye-to-eye on money", "Global News Canada • Global News Morning • Vancouver")}>Global News Canada</div>
                     </div>}                    
                     <button onClick={this.toggle.bind(this, "warsaw")}>
