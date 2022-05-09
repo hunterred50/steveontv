@@ -553,6 +553,7 @@ export default class Body extends Component {
                         Cincinnati
                     </button>
                     {this.state.displayCin && <div>
+                        <div style={{color: "#00FF00"}} className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/81k11m93qt?videoFoam=true", "'How Money Works' Author Steve Siebold featured on Fox 19 News in Cincinnati discussing how to prepare for a recession.", "Fox 19 • Now XTRA • Cincinnati")}>Fox 19</div>
                         <div style={{color: "#00FF00"}} className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/q2tckxbx1r?videoFoam=true", "Saving Green in March", "Fox 19 • Now • Cincinnati")}>HMW Fox 19</div>
                         <div style={{color: "#00FF00"}} className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/hi35efit58?videoFoam=true", "Couples in Business", "Fox 19 • Now • Cincinnati")}>HMW Fox 19</div>
                         <div style={{color: "#00FF00"}} className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/t459cbd3ex?videoFoam=true", "New Year's Money Resolution", "Fox 19 • Now • Cincinnati")}>HMW Fox 19</div>
@@ -694,6 +695,7 @@ export default class Body extends Component {
                         Kansas City
                     </button>
                     {this.state.displayKan && <div>
+                        <div style={{color: "#00FF00"}} className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/r0exkxza35?videoFoam=true", "'How Money Works' Author Steve Siebold on FOX 4 for Financial Literacy Month", "FOX 4 Morning News • FOX 4 • Kansas City")}>FOX 4 Morning News</div>
                         <div style={{color: "#00FF00"}} className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/2vd9o6xdpq?videoFoam=true", "'How Money Works' Author Steve Siebold featured on Great Day KC discussing tips to keep your holiday spending under control.", "Great Day KC • FOX 4 WDAF-TV • Kansas City")}>FOX 4 HMW Holidays</div>
                         <div style={{color: "#00FF00"}} className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/io15bvyjqs?videoFoam=true", "'How Money Works' Author Steve Siebold on FOX 4 Sports Sunday", "FOX 4 Sports Sunday • FOX 4 • Kansas City")}>FOX 4 Sports Sunday</div>
                         <div style={{color: "#00FF00"}} className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/g2esivz1mz?videoFoam=true", "'How Money Works' Author Steve Siebold on CBS 5 Kansas City", "CBS 5 Kansas City • CBS 5 • Kansas City")}>CBS 5 Kansas City</div>
@@ -872,6 +874,7 @@ export default class Body extends Component {
                         Phoenix
                     </button>
                     {this.state.displayPho && <div>
+                        <div style={{color: "#00FF00"}} className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/cwtdx8fhyx?videoFoam=true", "Preparing for a Recession", "Good Morning Arizona • CBS 5 GMAZ • Phoenix")}>Good Morning Arizona Recession</div>
                         <div style={{color: "#00FF00"}} className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/zn5cadejf5?videoFoam=true", "5 Money Goals for 2022", "Good Morning Arizona HMW • CBS 5 GMAZ • Phoenix")}>Good Morning Arizona HMW</div>
                         {/* <div className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/jejwtlu0fs?videoFoam=true", "Struggling with weight loss could all be in your head", "Arizona Midday • NBC 12 KPNX • Phoenix")}>Arizona Midday</div> */}
                         <div style={{color: "#00FF00"}} className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/ory1ojzeoq?videoFoam=true", "'How Money Works' Author Steve Siebold on Good Morning Arizona", "Good Morning Arizona • CBS 5 GMAZ • Phoenix")}>Good Morning Arizona Financial Footing</div>
@@ -989,6 +992,7 @@ export default class Body extends Component {
                         Tampa
                     </button>
                     {this.state.displayTam && <div>
+                        <div style={{color: "#00FF00"}} className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/l7zewhbhao?videoFoam=true", "'How Money Works' Author Steve Siebold featured on Great Day Live (CBS Tampa) discussing National Financial Literacy Month and how to make your money work for you.", "Great Day LIVE! • CBS 10 WTSP • Tampa")}>Great Day LIVE!</div>
                         <div style={{color: "#00FF00"}} className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/m3m6qbh4h2??videoFoam=true", "'How Money Works' Author Steve Siebold on Daytime", "Daytime HMW • NBC 8 WFLA • Tampa")}>Daytime HMW</div>
                         <div style={{color: "#00FF00"}} className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/wn8403te7q??videoFoam=true", "How couples can better see eye-to-eye on money as Valentine's Day approaches", "Daytime HMW • NBC 8 WFLA • Tampa")}>Daytime HMW</div>
                         <div style={{color: "#00FF00"}} className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/6pfo74ffhq?videoFoam=true", "How do we change our attitudes about money?", "Daytime HMW • NBC 8 WFLA • Tampa")}>Daytime HMW</div>
@@ -1040,6 +1044,7 @@ export default class Body extends Component {
                         Washington
                     </button>
                     {this.state.displayWas && <div>
+                        <div style={{color: "#00FF00"}} className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/cwtdx8fhyx?videoFoam=true", "'How Money Works' Author Steve Siebold featured on Good Day D.C. discussing how to prepare for a recession.", "Good Day D.C. • FOX 5 DC • Washington")}>Good Day DC</div>
                         <div style={{color: "#00FF00"}} className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/9we5z9op0l?videoFoam=true", "'How Money Works' Author Steve Siebold on Good Morning Washington", "Good Morning Washington • ABC 7 WJLA • Washington")}>Good Morning Washington HMW</div>
                         <div style={{color: "#00FF00"}} className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/2wocuknqdy?videoFoam=true", "How couples can work through their differences when it comes to money", "Good Morning Washington • ABC 7 WJLA • Washington")}>Good Morning Washington</div>
                         <div style={{color: "#00FF00"}} className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/2mm9vdowgo?videoFoam=true", "How far will stimulus checks go during the COVID-19 crisis?", "Fox 5 • FOX 5 WTTG • Washington")}>Fox 5 HMW</div>
