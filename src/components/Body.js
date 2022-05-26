@@ -32,6 +32,7 @@ export default class Body extends Component {
             displayHrr: false,
             displayHou: false,
             displayHun: false,
+            displayHus: false,
             displayInd: false,
             displayJac: false,
             displayKan: false,
@@ -74,6 +75,7 @@ export default class Body extends Component {
             displayTol: false,
             displayTor: false,
             displayTra: false,
+            displayTul: false,
             displayVan: false,
             displayWar: false,
             displayWas: false,
@@ -223,6 +225,11 @@ export default class Body extends Component {
         if(city === "huntington") {
             this.setState(state => ({
                 displayHun: !state.displayHun
+            }));
+        }
+        if(city === "huntsville") {
+            this.setState(state => ({
+                displayHus: !state.displayHus
             }));
         }
         if(city === "indianapolis") {
@@ -433,6 +440,11 @@ export default class Body extends Component {
         if(city === "traverse city") {
             this.setState(state => ({
                 displayTra: !state.displayTra
+            }));
+        }
+        if(city === "tulsa") {
+            this.setState(state => ({
+                displayTul: !state.displayTul
             }));
         }
         if(city === "vancouver") {
@@ -673,6 +685,12 @@ export default class Body extends Component {
                     {this.state.displayHun && <div>
                         <div style={{color: "#00FF00"}} className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/jptg16erda?videoFoam=true", "Five Ways to Save Money in March", "Studio 3 HMW • NBC 3 WSAZ • Huntington")}>Studio 3 HMW</div>
                         <div style={{color: "#00FF00"}} className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/1qf4w8z63q?videoFoam=true", "Breaking some of the biggest myths about money", "Studio 3 HMW • NBC 3 WSAZ • Huntington")}>Studio 3 HMW</div>
+                    </div>}
+                    <button onClick={this.toggle.bind(this, "huntsville")}>
+                        Huntsville
+                    </button>
+                    {this.state.displayHus && <div>
+                        <div style={{color: "#00FF00"}} className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/bzfzswgmda?videoFoam=true", "Tips for new grads to get ahead financially.", "Tennessee Valley Living • WAFF 48 • Huntsville")}>Tennessee Valley Living</div>
                     </div>}
                     <button onClick={this.toggle.bind(this, "indianapolis")}>
                         Indianapolis
@@ -1026,6 +1044,12 @@ export default class Body extends Component {
                     {this.state.displayTra && <div>
                         <div style={{color: "#00FF00"}} className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/zsnpsw1dwo?videoFoam=true", "How to do a financial spring cleaning", "9&10 News the four HMW • 9&10 News WWTV • Traverse City")}>9&10 News the four HMW</div>
                         <div style={{color: "#00FF00"}} className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/235u6n2y9d?videoFoam=true", "How couples can see eye-to-eye when it comes to money", "9&10 News the four • 9&10 News WWTV • Traverse City")}>9&10 News the four</div>
+                    </div>}
+                    <button onClick={this.toggle.bind(this, "tulsa")}>
+                        Tulsa
+                    </button>
+                    {this.state.displayTul && <div>
+                        <div style={{color: "#00FF00"}} className="show" onClick={this.setVid.bind(this, "https://fast.wistia.net/embed/iframe/qs38f862lh?videoFoam=true", "Tips for new grads to get ahead financially.", "Good Day Tulsa • KTUL ABC 8 • Tulsa")}>Good Day Tulsa</div>
                     </div>}
                     <button onClick={this.toggle.bind(this, "vancouver")}>
                         Vancouver
